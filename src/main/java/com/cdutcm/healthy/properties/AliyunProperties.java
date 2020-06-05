@@ -10,10 +10,10 @@ import lombok.Data;
  */
 @Data
 public class AliyunProperties {
-    private String accessKeyId = "LTAInDjKhaewEuCk";
-    private String secret = "F5l49vvr6nazVOJgaOvJAVQoJ9vsyc";
+    private String accessKeyId = "";
+    private String secret = "";
     private String signName = "涂元坤";
 
-    private String verifyTemplateCode = "SMS_100830105";
-    private String healthyTemplateCode = "SMS_160575192";
+    private String verifyTemplateCode = "";
+    private String healthyTemplateCode = "";
 }
